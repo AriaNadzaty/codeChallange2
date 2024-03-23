@@ -13,7 +13,7 @@ const Hero = () => {
         <Image 
           src="/hololive.png"
           alt="HeroImage"
-          width={2400}
+          width={1400}
           height={1080}
            
         />
