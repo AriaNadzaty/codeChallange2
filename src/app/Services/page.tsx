@@ -10,7 +10,7 @@ export default function Services (){
                 </p>
                 <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
                     <h2 className="bold-40 text-blue-500 lg:bold-64 xl:max-w-[390px]:">Livestream</h2>
-                    <p className="regular-24 text-blue-950"> 
+                    <p className="regular-24 text-blue-950">
 Step into the vibrant world of Hololive through our captivating livestreams! Join us as our talented virtual personalities embark on exciting adventures, entertain with their unique talents, and connect with fans in real-time. Whether it's gaming, singing, chatting, or exploring new experiences, our livestreams offer a diverse range of content to suit every taste. Immerse yourself in the interactive community atmosphere, where viewers can engage with their favorite VTubers, participate in lively discussions, and share unforgettable moments together. With high-quality production values and an unwavering commitment to entertainment, Hololive livestreams promise an immersive and unforgettable experience for fans around the globe. Tune in and discover the magic of virtual entertainment with Hololive!</p>
                 </div>
             </div>

@@ -6,7 +6,7 @@ export default function Teams() {
   return (
     <>
      <div className="main">
-        <h1 className=' text-center regular-32 text-blue-900 font-bold'>Hololive Member</h1>
+        <h1 className=' text-center regular-32 text-blue-900 font-bold'>{'Hololive Member'}</h1>
         <RandomUserPage />
       </div>
     
