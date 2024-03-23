@@ -11,7 +11,7 @@ export default function About (){
                 <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
                     <h2 className="bold-40 text-white lg:bold-64 xl:max-w-[390px]:">What is Hololive?</h2>
                     <p className="regular-24 text-blue-950"> 
-Hololive's worldwide popularity is exemplified by its multifaceted divisions, strategically catering to diverse audiences across the globe. These divisions, tailored to various regions and cultures, showcase the agency's commitment to engaging with fans on a global scale while maintaining authenticity and resonance within each unique community.
+Hololive&apso;s worldwide popularity is exemplified by its multifaceted divisions, strategically catering to diverse audiences across the globe. These divisions, tailored to various regions and cultures, showcase the agency&apso;s commitment to engaging with fans on a global scale while maintaining authenticity and resonance within each unique community.
 </p>
             <h2 className="bold-40 text-white lg:bold-64 xl:max-w-[390px]:">Culture</h2>
             

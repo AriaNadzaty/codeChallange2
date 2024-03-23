@@ -22,8 +22,8 @@ const Hero = () => {
             <div className=' bg-blue-400  text-white inline rounded-lg size-2 px-4 '>
                 <Link href={"/About"}> About  
                 </Link></div> </h1>
-        <p className="regular-24 mt-6 text-gray-30 xl:max-w-[720px] lg:px-20 mb-14">
-          Hololive are VTuber agencies we are online entertainer using live stream media
+        <p className="regular-24 mt-6 text-gray-30 xl:max-w-[720px] lg:px-20 mb-14">{"Hololive are VTuber agencies we are online entertainer using live stream media"}
+         
         </p>
 
         
