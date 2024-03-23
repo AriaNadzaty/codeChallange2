@@ -2,9 +2,9 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import RandomUser from "./MemberInterface";
-import Image from "next/image";
 
-const url : string ='https://randomuser.me/api/?results=10'
+
+const url : string ='https://randomuser.me/api/?results=6'
 const UserRandom = async () => {
   try {
     const response = await axios.get(url);
@@ -36,7 +36,7 @@ export default function RNG() {
 
 const RNGMember = ({ user }: { user: RandomUser }) => (
   <div className="border pt-6 pb-24 rounded-lg mt-3 bg-blue-500  ">
-    <Image alt="member" src={user.picture.large} className=" mx-auto my-auto mt-5" />
+    <img src={user.picture.large}  className=" mx-auto my-auto mt-5" />
       <ul className="text-center regular-24 mt-3 text-white">
         <li>Name = {user.name.first}</li>
         <li>Email = {user.email}</li>

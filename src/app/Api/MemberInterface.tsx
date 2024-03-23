@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default interface RandomUser {
   name: {
     first: string;
