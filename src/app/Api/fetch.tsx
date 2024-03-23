@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect, lazy } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import RandomUser from "./MemberInterface";
 
@@ -36,7 +36,7 @@ export default function RNG() {
 
 const RNGMember = ({ user }: { user: RandomUser }) => (
   <div className="border pt-6 pb-24 rounded-lg mt-3 bg-blue-500  ">
-    <img src={user.picture.large}  className=" mx-auto my-auto mt-5" loading={"lazy"} />
+    <img src={user.picture.large}  className=" mx-auto my-auto mt-5" />
       <ul className="text-center regular-24 mt-3 text-white">
         <li>Name = {user.name.first}</li>
         <li>Email = {user.email}</li>

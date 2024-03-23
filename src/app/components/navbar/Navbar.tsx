@@ -34,22 +34,22 @@ export default function Navbar() {
              
             >
               <ul className="md:h-auto gap-12 md:flex lg:flex sm: px-12">
-                <li className=" text-xl text-blue-500 py-2 px-6 text-center inline-block md:border-b-0    md:hover hover:font-semibold ">
+                <li className=" text-xl text-blue-600 py-2 px-6 text-center inline-block md:border-b-0    md:hover hover:font-semibold ">
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
                     Home
                   </Link>
                 </li>
-                <li className=" text-xl text-blue-500 py-2 px-6 text-center  inline-block md:border-b-0    md:hover hover:font-semibold  ">
+                <li className=" text-xl text-blue-600 py-2 px-6 text-center  inline-block md:border-b-0    md:hover hover:font-semibold  ">
                   <Link href="/About" onClick={() => setNavbar(!navbar)}>
                     About Us
                   </Link>
                 </li>
-                <li className=" text-xl text-blue-500 py-2 px-6 text-center  inline-block md:border-b-0    md:hover hover:font-semibold">
+                <li className=" text-xl text-blue-600 py-2 px-6 text-center  inline-block md:border-b-0    md:hover hover:font-semibold">
                   <Link href="/Services" onClick={() => setNavbar(!navbar)}>
                     Services
                   </Link>
                 </li>
-                <li className=" text-xl text-blue-500 py-2 px-6 text-center  inline-block md:border-b-0    md:hover hover:font-semibold ">
+                <li className=" text-xl text-blue-600 py-2 px-6 text-center  inline-block md:border-b-0    md:hover hover:font-semibold ">
                   <Link href="/Teams" onClick={() => setNavbar(!navbar)}>
                     Teams
                   </Link>

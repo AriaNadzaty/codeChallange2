@@ -13,13 +13,13 @@ const Hero = () => {
         <Image 
           src="/hololive.png"
           alt="HeroImage"
-          width={1400}
+          width={2400}
           height={1080}
            
         />
         </div>
         <h1 className="bold-40 lg:bold-64 md:bold-52 lg:px-20 pt-4 sm:bold-40 mb">
-            <div className=' bg-blue-400  text-white inline rounded-lg size-2 px-4 '>
+            <div className=' bg-blue-600  text-white inline rounded-lg size-2 px-4 '>
                 <Link href={"/About"}> About  
                 </Link></div> </h1>
         <p className="regular-24 mt-6 text-gray-30 xl:max-w-[720px] lg:px-20 mb-14">{"Hololive are VTuber agencies we are online entertainer using live stream media"}
